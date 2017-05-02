@@ -1,0 +1,3 @@
+/home/rodrigocoelho/Área de Trabalho/g2o-master/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/edit_cache.dir
+/home/rodrigocoelho/Área de Trabalho/g2o-master/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/rebuild_cache.dir
+/home/rodrigocoelho/Área de Trabalho/g2o-master/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir

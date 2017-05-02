@@ -1,0 +1,3 @@
+/home/rodrigocoelho/Área de Trabalho/g2o-master/g2o/examples/ba/CMakeFiles/edit_cache.dir
+/home/rodrigocoelho/Área de Trabalho/g2o-master/g2o/examples/ba/CMakeFiles/rebuild_cache.dir
+/home/rodrigocoelho/Área de Trabalho/g2o-master/g2o/examples/ba/CMakeFiles/ba_demo.dir
