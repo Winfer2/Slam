@@ -1,0 +1,138 @@
+# depslib dependency file v1.0
+1493142728 source:/home/rodrigocoelho/Desktop/mapViewer/src/IO/TUMDatasetStream.cpp
+	<iostream>
+	<fstream>
+	<IO/TUMDatasetStream.hpp>
+
+1493142762 /home/rodrigocoelho/Desktop/mapViewer/include/IO/TUMDatasetStream.hpp
+	<IO/ImageStream.hpp>
+
+1493133796 /home/rodrigocoelho/Desktop/mapViewer/include/IO/ImageStream.hpp
+	<Core/Core.hpp>
+
+1493245690 /home/rodrigocoelho/Desktop/mapViewer/include/Core/Core.hpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/features2d/features2d.hpp>
+	<functional>
+	<iostream>
+	<utility>
+	<chrono>
+	<thread>
+	<atomic>
+	<mutex>
+	<vector>
+	<deque>
+	<list>
+	<set>
+	<map>
+	"impl/Core.hh"
+
+1493156974 /home/rodrigocoelho/Desktop/mapViewer/include/Core/impl/Core.hh
+
+1493143982 source:/home/rodrigocoelho/Desktop/mapViewer/src/IO/VideoStream.cpp
+	<IO/VideoStream.hpp>
+
+1493130738 /home/rodrigocoelho/Desktop/mapViewer/include/IO/VideoStream.hpp
+	<IO/ImageStream.hpp>
+	<opencv2/videoio.hpp>
+
+1493125230 source:/home/rodrigocoelho/Desktop/mapViewer/src/Mapping/Map.cpp
+	<Mapping/Map.hpp>
+
+1493157270 /home/rodrigocoelho/Desktop/mapViewer/include/Mapping/Map.hpp
+	<Core/Core.hpp>
+	<Tracking/Frame.hpp>
+	"impl/Map.hh"
+
+1493123524 /home/rodrigocoelho/Desktop/mapViewer/include/Tracking/Frame.hpp
+	<Core/CameraParameters.hpp>
+	<Tracking/FeatureExtractor.hpp>
+	"impl/Frame.hh"
+
+1493075152 /home/rodrigocoelho/Desktop/mapViewer/include/Core/CameraParameters.hpp
+	<Core/Core.hpp>
+	"impl/CameraParameters.hh"
+
+1493075192 /home/rodrigocoelho/Desktop/mapViewer/include/Core/impl/CameraParameters.hh
+
+1493083830 /home/rodrigocoelho/Desktop/mapViewer/include/Tracking/FeatureExtractor.hpp
+	<Core/Core.hpp>
+	<Tracking/Features.hpp>
+	"impl/FeatureExtractor.hh"
+
+1493083434 /home/rodrigocoelho/Desktop/mapViewer/include/Tracking/Features.hpp
+	<Core/Grid.hpp>
+	"impl/Features.hh"
+
+1493071820 /home/rodrigocoelho/Desktop/mapViewer/include/Core/Grid.hpp
+	<Core/Core.hpp>
+	"impl/Grid.hh"
+
+1493071880 /home/rodrigocoelho/Desktop/mapViewer/include/Core/impl/Grid.hh
+
+1493083394 /home/rodrigocoelho/Desktop/mapViewer/include/Tracking/impl/Features.hh
+
+1493154758 /home/rodrigocoelho/Desktop/mapViewer/include/Tracking/impl/FeatureExtractor.hh
+
+1493083220 /home/rodrigocoelho/Desktop/mapViewer/include/Tracking/impl/Frame.hh
+
+1493127058 /home/rodrigocoelho/Desktop/mapViewer/include/Mapping/impl/Map.hh
+	<Mapping/MapPoint.hpp>
+	<Mapping/KeyFrame.hpp>
+
+1493127112 /home/rodrigocoelho/Desktop/mapViewer/include/Mapping/MapPoint.hpp
+	<Core/Core.hpp>
+	<Mapping/Map.hpp>
+	"impl/MapPoint.hh"
+
+1493127120 /home/rodrigocoelho/Desktop/mapViewer/include/Mapping/impl/MapPoint.hh
+
+1493127080 /home/rodrigocoelho/Desktop/mapViewer/include/Mapping/KeyFrame.hpp
+	<Core/Grid.hpp>
+	<Mapping/Map.hpp>
+	"impl/KeyFrame.hh"
+
+1493127086 /home/rodrigocoelho/Desktop/mapViewer/include/Mapping/impl/KeyFrame.hh
+
+1493154792 source:/home/rodrigocoelho/Desktop/mapViewer/src/Tracking/FeatureExtractor.cpp
+	<Tracking/FeatureExtractor.hpp>
+
+1493083786 source:/home/rodrigocoelho/Desktop/mapViewer/src/Tracking/Frame.cpp
+	<Tracking/Frame.hpp>
+
+1493160390 source:/home/rodrigocoelho/Desktop/mapViewer/src/View/MapDrawer.cpp
+	<View/MapDrawer.hpp>
+	<pangolin/pangolin.h>
+
+1493152526 /home/rodrigocoelho/Desktop/mapViewer/include/View/MapDrawer.hpp
+	<Core/Core.hpp>
+	<Mapping/Map.hpp>
+
+1493160544 source:/home/rodrigocoelho/Desktop/mapViewer/src/View/MapViewer.cpp
+	<View/MapViewer.hpp>
+	<pangolin/pangolin.h>
+
+1493156554 /home/rodrigocoelho/Desktop/mapViewer/include/View/MapViewer.hpp
+	<View/Viewer.hpp>
+	<View/MapDrawer.hpp>
+	<Mapping/Map.hpp>
+
+1493143968 /home/rodrigocoelho/Desktop/mapViewer/include/View/Viewer.hpp
+	<Core/Core.hpp>
+
+1493157004 source:/home/rodrigocoelho/Desktop/mapViewer/src/View/Viewer.cpp
+	<View/Viewer.hpp>
+
+1493305026 source:/home/rodrigocoelho/Desktop/mapViewer/main.cpp
+	<IO/TUMDatasetStream.hpp>
+	<Core/Grid.hpp>
+	<Core/CameraParameters.hpp>
+	<Tracking/Frame.hpp>
+	<Tracking/FeatureExtractor.hpp>
+	<Mapping/Map.hpp>
+	<View/MapViewer.hpp>
+	<stdlib.h>
+	<time.h>
+
